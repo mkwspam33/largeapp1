@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="sn_largeapp1_basetable">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="sn_largeapp1_customaix_server" table="cmdb_ci_aix_server">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>CustomAIX Server</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>sn_largeapp1_customaix_server</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>sn_largeapp1_basetable</name>
+        <name>cmdb_ci_aix_server</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-02 19:13:25</sys_created_on>
-        <sys_id>567d59f377774010ca3ab5b2681061df</sys_id>
+        <sys_created_on>2020-04-02 19:20:37</sys_created_on>
+        <sys_id>6dad5df377774010ca3ab5b2681061a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>sn_largeapp1_basetable</sys_name>
+        <sys_name>CustomAIX Server</sys_name>
         <sys_package display_value="LargeApp1" source="sn_largeapp1">8071053a777b0010ca3ab5b2681061af</sys_package>
         <sys_policy/>
         <sys_scope display_value="LargeApp1">8071053a777b0010ca3ab5b2681061af</sys_scope>
-        <sys_update_name>sys_dictionary_sn_largeapp1_basetable_NULL</sys_update_name>
+        <sys_update_name>sys_dictionary_cmdb_ci_aix_server_sn_largeapp1_customaix_server</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-02 19:19:32</sys_updated_on>
+        <sys_updated_on>2020-04-02 19:20:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
